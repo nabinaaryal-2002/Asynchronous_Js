@@ -1,4 +1,7 @@
-// Ice cream business using promise 
+
+
+
+// steps for making an ice cream using promise 
 
 let stocks = {
   Fruits: ["banana","strawberry","apple","grapes"],
@@ -53,7 +56,7 @@ order(2000,()=>console.log(`${stocks.Fruits[0]} was selected`))
   })
 })
 .then(()=>{
-  return order(1000,()=>console.log("Icecream was served"))
+  return order(1000,()=>console.log("Ice cream was served"))
 })
 
 
@@ -65,3 +68,4 @@ order(2000,()=>console.log(`${stocks.Fruits[0]} was selected`))
 .finally(()=>{
   console.log("day ended shop is closed")
 })
+
